@@ -20,6 +20,28 @@ main {
     position: relative;
 }
 
+#container {
+    text-align: center;
+}
+
+#left {
+    float: left;
+}
+
+
+#center {
+    display: inline-block;
+}
+
+#right {
+    float: right;
+}
+
+
+div {
+    margin: 20px;
+}
+
 
 main > section img {
     height: 300px;
@@ -28,8 +50,7 @@ main > section img {
 
 }
 
-
-main > section button {
+ button {
     background-color: #00BFFF;
     border: none;
     border-radius: 4px;
